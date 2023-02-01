@@ -6,7 +6,7 @@ import { ThemeContext, useThemedStyles } from '../utils/theme-context'
 const Settings: FC = () => {
   const styles = useThemedStyles(globalStyles)
   const { theme, changeTheme } = useContext(ThemeContext)
-  const deffaultStatus = theme === 'Dark' ? true : false
+  const deffaultStatus = theme === 'Light' ? true : false
   const [isEnabled, setIsEnabled] = useState(deffaultStatus)
   const toggleSwitch = () => {
     setIsEnabled(!isEnabled)

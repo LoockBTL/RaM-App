@@ -5,6 +5,8 @@
     "owner": "Loock",
     "currentFullName":"Rick and Morty App",
     "platforms":["ios", "android"],
+    "githubUrl":"https://github.com/LoockBTL/RaM-App",
+    "icon": "./assets/rick-and-morty-icon-png.png",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "light",
@@ -15,12 +17,14 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "icon": "./assets/rick-and-morty-icon-png.png"
     },
     "android": {
+      "icon": "./assets/rick-and-morty-icon-png.png"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/rick-and-morty-icon-png.png"
     }
   }
 }
