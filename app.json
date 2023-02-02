@@ -1,11 +1,14 @@
 {
   "expo": {
     "name": "RaM",
-    "slug": "RaM-App",
-    "owner": "Loock",
-    "currentFullName":"Rick and Morty App",
-    "platforms":["ios", "android"],
-    "githubUrl":"https://github.com/LoockBTL/RaM-App",
+    "slug": "ram-app",
+    "owner": "loock",
+    "currentFullName": "Rick and Morty App",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "githubUrl": "https://github.com/LoockBTL/RaM-App",
     "icon": "./assets/rick-and-morty-icon-png.png",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,13 +21,20 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "icon": "./assets/rick-and-morty-icon-png.png"
+      "icon": "./assets/rick-and-morty-icon-png.png",
+      "bundleIdentifier": "com.loock.ramapp"
     },
     "android": {
-      "icon": "./assets/rick-and-morty-icon-png.png"
+      "icon": "./assets/rick-and-morty-icon-png.png",
+      "package": "com.loock.ramapp"
     },
     "web": {
       "favicon": "./assets/rick-and-morty-icon-png.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "413368a5-d957-40af-8e0f-2291396e2041"
+      }
     }
   }
 }
